@@ -1,0 +1,38 @@
+/* Container for authentication forms (login/signup) */
+.auth {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    width: 100%;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; /* Ensure some space below the buttons */
+  }
+  
+  #signup, #login {
+    margin: 0 10px; /* Remove top and bottom margin to prevent "bouncing" */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    transition: border-color 0.8s ease-in-out;
+  }
+  
+  #signup {
+    background-color: #fff; /* Green color for signup */
+    color: black;
+  }
+  
+  #signup:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  #login {
+    background-color: #fff; /* Blue color for login */
+    color: black;
+  }
+  
+  #login:hover {
+    border-bottom: 2px solid black;/* Darker blue on hover */
+  }
+  
